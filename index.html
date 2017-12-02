@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110557046-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-110557046-1');
+		</script>
+
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mukitur Reza</title>
 		<meta name="description" content="Personal site of Mukitur Reza." />
-		<meta name="keywords" content="webgl, background, shape, web design, web development, tweenmax, gsap, animation" />
+		<meta name="keywords" content="mukit, mukitur reza, mukit resume, mukit reza resume, mukit reza" />
 		<meta name="author" content="Mir Mukitur Reza" />
+		<meta property="og:image" content="http://mukitureza.com/img/og.jpg">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
@@ -44,7 +55,11 @@
 						<!--<a class="codrops-icon codrops-icon&#45;&#45;prev" href="https://tympanus.net/Development/AnimatedFrameSlideshow/" title="Previous Demo"><svg class="icon icon&#45;&#45;arrow"><use xlink:href="#icon-arrow"></use></svg></a>-->
 						<!--<a class="codrops-icon codrops-icon&#45;&#45;drop" href="https://tympanus.net/codrops/?p=33168" title="Back to the article"><svg class="icon icon&#45;&#45;drop"><use xlink:href="#icon-drop"></use></svg></a>-->
 					<!--</div>-->
-					<h1 class="codrops-header__title"><a href="resume.html">View Resume</a></h1>
+					<h1 class="codrops-header__title"><a href="resume.html">Resume</a></h1>
+					<!-- <h1 class="codrops-header__title"><a href="resume.html">Resume</a> - <a href="/portfolio">Porfolio</a></h1> -->
+
+
+
 				</header>
 				<a class="github" href="https://github.com/mukit1400/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
 
@@ -54,10 +69,13 @@
 			<div class="content">
 				<canvas class="scene scene--full" id="scene"></canvas>
 				<div class="content__inner">
+					<h3 class="content__subtitle">mukit1400@gmail.com</h3>
 					<h2 class="content__title">Mukitur Reza</h2>
-					<h3 class="content__subtitle">Software Engineer</h2>
+					<h3 class="content__subtitle">Software Engineer</h3>
+
 				</div>
 			</div>
+
 		</main>
 		<script src="js/demo.js"></script>
 		<script src="js/three.min.js"></script>

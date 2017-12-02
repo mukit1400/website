@@ -12,6 +12,9 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo6.css" />
 		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
 	<body class="demo-6">
@@ -40,38 +43,106 @@
 		<main>
 			<div class="content content--fixed">
 				<header class="codrops-header">
-					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/AnimatedFrameSlideshow/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=33168" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-					</div>
-					<h1 class="codrops-header__title">Decorative WebGL Backgrounds</h1>
+
+					<h1 class="codrops-header__title">Home - Resume - Portfolio</h1>
 				</header>
-				<a class="github" href="https://github.com/Mamboleoo/DecorativeBackgrounds/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
-				<nav class="demos">
-					<svg class="icon icon--keyboard"><use xlink:href="#icon-keyboard"></use></svg>
-					<a class="demo" href="index.html"><span>Demo 1</span></a>
-					<a class="demo" href="index2.html"><span>Demo 2</span></a>
-					<a class="demo" href="index3.html"><span>Demo 3</span></a>
-					<a class="demo" href="index4.html"><span>Demo 4</span></a>
-					<a class="demo" href="index5.html"><span>Demo 5</span></a>
-					<a class="demo demo--current" href="index6.html"><span>Demo 6</span></a>
-				</nav>
-				<a class="pater" href="http://go.thoughtleaders.io/TLDcodrops211117" onClick="recordOutboundLink(this, 'Outbound Links', 'TLDcodrops211117');return false;">
-					<img class="pater__img" src="pater/TLD.png" alt="TLD"/>
-					<h3 class="pater__title">​Snag the hottest new domain name for designers</h3>
-					<p class="pater__description">.design domains were just released and some of the best ones are still available. They normally cost $35 but Codrops readers <strong>get them now for FREE!</strong></p>
-				</a>
+				<a class="github" href="https://github.com/mukit1400/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
+
 			</div>
 			<div class="content">
 				<canvas class="scene scene--full" id="scene"></canvas>
 				<div class="content__inner">
-					<h2 class="content__title">Hawking</h2>
-					<h3 class="content__subtitle">A Biography</h2>
+					<h2 class="content__title">Portfolio</h2>
+					<h3 class="content__subtitle">A Compilation</h2>
 				</div>
 			</div>
+			<ul id="og-grid" class="og-grid">
+				<li>
+					<a href="http://aarongdairy.net" data-largesrc="images/aarong.jpg" data-title="Aarong Dairy"
+					   data-description="Aarong Dairy compelled us to create a visual storytelling experience on their homepage which would intrigue visitors as soon as they land on the site and urge them to explore further.<br><br> The site visitors get an exclusive preview of the purpose and spirit of Aarong Dairy via an intuitive array of illustration that narrates the whole production process of Aarong Dairy products. Moreover, the viewers are in full control of the pace of the progression of the story because it proceeds by the means of scrolling down the page. In addition, customers also get a full collection of all the products available with the scope of online shopping.
+.">
+						<img src="images/aarong.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://chatleads.io" data-largesrc="images/chatleads.jpg" data-title="ChatLeads"
+					   data-description="Automate bi-lingual contextualized replies that will posted to user comments on your posts & can incorporate links to your website.">
+						<img src="images/chatleads.jpg" alt="img03"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://madeinequality.com" data-largesrc="images/mie.jpg" data-title="Azuki bean"
+					   data-description="Made in Equality (MiE) is a storytelling platform featuring people from the Bangladeshi RMG sector, especially garment workers. A major challenge for MiE website was to create a platform which gracefully reflects the lives and stories of ordinary people. We aimed to keep the site minimalistic and simple.">
+						<img src="images/mie.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://ifadautos.com" data-largesrc="images/ifad.jpg" data-title="Veggies sunt bona vobis"
+					   data-description="IFAD Autos.">
+						<img src="images/ifad.jpg" alt="img02"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://omeralpg.com" data-largesrc="images/omera.jpg" data-title="Dandelion horseradish"
+					   data-description="The website needed to portray the brand image of Omera LPG and raise knowledge about the concept of petroleum gas and cylinders.">
+						<img src="images/omera.jpg" alt="img03"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/star.jpg" data-title="Star Ceramics"
+					   data-description="The primary challenge here was to fit in a huge volume of features and information right into the website. We had to include company details along with details about all the products and designs that Star Ceramics offers as well as information about their dealers. ">
+						<img src="images/star.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://toruinstitute.org" data-largesrc="images/toru.jpg" data-title="TORU"
+					   data-description="Toru ">
+						<img src="images/toru.jpg" alt="img02"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://customfit.yellowclothing.net" data-largesrc="images/yellow.jpg" data-title="Yellow Custom Fit"
+					   data-description="Custom Shirt Customizer.">
+						<img src="images/yellow.jpg" alt="img03"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://core-k.com" data-largesrc="images/core-k.jpg" data-title="Core Knowledge"
+					   data-description="Core Knowledge.">
+						<img src="images/core-k.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://chittagongvikings.com" data-largesrc="images/ctgvikings.jpg" data-title="Chittagong Vikings"
+					   data-description="We had to develop a website that represents the Chittagong Vikings cricket team and captures the image the team upholds.">
+						<img src="images/ctgvikings.jpg" alt="img01"/>
+					</a>
+				</li>
+				<li>
+					<a href="http://catch.chittagongvikings.com" data-largesrc="images/catch.jpg" data-title="Catch Game"
+					   data-description="Tailored Models: Both party teams have jerseys and gloves corresponding to the teams selected. The models were developed individually and taken from in reference from the actual team uniform. The game ambience is designed to look like an area battle in order to capture the essence of the word “Vikings”.">
+						<img src="images/catch.jpg" alt="img01"/>
+
+					</a>
+
+				</li>
+				<li>
+					<a href="#" data-largesrc="images/butterfly.jpg" data-title="AR Greeting Card"
+					   data-description="Custom AR Greeting Card.">
+						<img src="images/butterfly.jpg" alt="img01"/>
+					</a>
+				</li>
+			</ul>
 		</main>
 		<script src="js/demo.js"></script>
 		<script src="js/three.min.js"></script>
 		<script src="js/demo6.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+            $(function() {
+                Grid.init();
+            });
+		</script>
 	</body>
 </html>
